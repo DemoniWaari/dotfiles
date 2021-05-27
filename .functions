@@ -1,0 +1,4 @@
+# Functions for more comples aliases
+
+# Cheat.sh
+cheat(){ curl --fail --silent --show-error "http://cheat.sh/$1" 2>&1; }
