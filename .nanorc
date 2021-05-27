@@ -1,0 +1,17 @@
+# Mouse on
+set mouse
+# Auto indenting
+set autoindent
+# Line numbers at the left
+set linenumbers
+# Set soft-wrap at blanks
+set softwrap
+set atblanks
+# Tab size
+set tabsize 4
+
+# Bind ctrl backspace to delete previous word
+bind ^H chopwordleft all
+
+# Syntax coloring
+include /usr/share/nano/*.nanorc

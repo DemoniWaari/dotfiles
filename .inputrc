@@ -1,0 +1,5 @@
+# Caseless tab completion
+set completion-ignore-case on
+
+# List all matches if multiple completions are possible
+set show-all-if-ambiguous on
