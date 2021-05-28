@@ -7,4 +7,6 @@ alias fd="fdfind"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/projects/dotfiles.git/ --work-tree=$HOME'
 # Save to clipboard with stuff like echo -n test | xclip
 alias xclip='xclip -selection c'
-
+# cd stuff
+alias ..='cd ..'
+alias ...='cd ../..'

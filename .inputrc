@@ -3,3 +3,6 @@ set completion-ignore-case on
 
 # List all matches if multiple completions are possible
 set show-all-if-ambiguous on
+
+# Color coding when tab lists files
+set colored-stats On
