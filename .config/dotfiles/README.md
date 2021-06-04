@@ -6,7 +6,7 @@ Installing to a new computer:
 (might need this) echo "~/projects/dotfiles.git" >> .gitignore
 
 	git clone --bare https://github.com/DemoniWaari/dotfiles.git $HOME/projects/dotfiles.git
-	alias dotfiles='/usr/bin/git --git-dir=$HOME/projects/dotfiles.md --work-tree=$HOME'
+	alias dotfiles='/usr/bin/git --git-dir=$HOME/projects/dotfiles.git --work-tree=$HOME'
 	dotfiles config --local status.showUntrackedFiles no
 	dotfiles checkout
 
